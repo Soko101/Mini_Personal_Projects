@@ -1,0 +1,12 @@
+---
+:id: 207827584
+:submitters:
+- :name: Taonga Soko
+  :email: tsoko20@stlawu.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-10-31 02:04:57.016634000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-10-30 19:04:57.016634000 Z
+:status: processed
+:score: 15.0

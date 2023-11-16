@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Grid Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <div id="color-grid"></div>
+        <form id="grid-form">
+            <div class="mb-3">
+                <label for="rows" class="form-label">Rows:</label>
+                <input type="number" id="rows" name="rows" class="form-control" min="1" value="15">
+            </div>
+            <div class="mb-3">
+                <label for="columns" class="form-label">Columns:</label>
+                <input type="number" id="columns" name="columns" class="form-control" min="1" value="15">
+            </div>
+            <button type="button" id="generate-button" class="btn btn-primary">Generate Grid</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

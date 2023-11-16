@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white; /* Background color for the entire page */
+}
+
+.grid-row {
+    display: flex;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white; 
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}

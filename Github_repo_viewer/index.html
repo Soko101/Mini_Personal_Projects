@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Github Repositories Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">GitHub Repositories Viewer</h1>
+        <div class="form-group">
+            <label for="username">GitHub Username:</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+            <label for="accessToken">GitHub Access Token:</label>
+            <input type="text" class="form-control" id="accessToken" placeholder="Enter access token">
+        </div>
+        <button class="btn btn-primary" id="fetchButton">Fetch Repositories</button>
+        <ul class="list-group mt-4" id="repoList"></ul>
+    </div>
+
+    <script src="githubrepos.js"></script>
+</body>
+</html>
